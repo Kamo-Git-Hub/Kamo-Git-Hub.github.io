@@ -1,0 +1,357 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+body {
+  background-color: rgb(53, 53, 53);
+}
+/* header */
+.header {
+  background-color: black;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  word-spacing: 10px;
+}
+
+.header h1 {
+  font-size: 40px;
+  color: white;
+  letter-spacing: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 500px;
+}
+
+.home-button {
+  background-color: brown;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.home-button:hover {
+  background-color: white;
+  color: brown;
+  font-weight: bold;
+}
+
+/*header*/
+
+/* content-start  */
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+.question-page {
+  height: 500px;
+  width: 300px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-right: 100px;
+  border-radius: 10px;
+}
+
+.true-count-page {
+  height: 100px;
+  width: 90px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+  align-items: center;
+  font-size: 80px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.false-count-page {
+  height: 100px;
+  width: 90px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+  align-items: center;
+  font-size: 80px;
+  font-weight: bold;
+  border-radius: 5px;
+  color: brown;
+  margin-left: 10px;
+}
+
+.true-count-page p {
+  font-size: 22px;
+  font-weight: bold;
+  background-color: rgb(53, 53, 53);
+  padding: 4px 8px 4px 8px;
+  border-radius: 5px;
+}
+
+.false-count-page p {
+  font-size: 22px;
+  color: brown;
+  font-weight: bold;
+  background-color: rgb(53, 53, 53);
+  padding: 4px 8px 4px 8px;
+  border-radius: 5px;
+}
+
+.answer-page {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.count-page {
+  display: flex;
+}
+
+.count-size {
+  font-size: 14px;
+}
+
+.answer-page ul li {
+  margin-top: 30px;
+  cursor: pointer;
+  font-size: 22px;
+  background-color: rgb(53, 53, 53);
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.answer-page ul li:hover {
+  background-color: brown;
+}
+
+.img {
+  border: 3px solid black;
+  margin-top: 5px;
+}
+
+.start-game {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.start-game p {
+  background-color: brown;
+  color: white;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  padding: 10px 15px 10px 15px;
+  border-radius: 10px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.start-game p:hover {
+  background-color: rgb(53, 53, 53);
+  color: brown;
+}
+
+.restart {
+  display: none;
+}
+
+.restart-game {
+  cursor: pointer;
+  display: flex;
+  margin-top: 227px;
+  background-color: brown;
+  color: white;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  padding: 10px 15px 10px 15px;
+  border-radius: 10px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.restart-game:hover {
+  background-color: rgb(53, 53, 53);
+  color: brown;
+}
+
+
+/* media */
+
+@media (max-width: 600px) {
+
+  body{
+    background-color: rgb(129, 129, 129);
+  }
+
+  .header {
+    word-spacing: 2px;
+    width: 100%;
+    height: 90px;
+ }
+
+ .home {
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 90px;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.question-page{
+  margin-left: 17%;
+  height: 400px;
+  width: 270px;
+  margin-top: 20px;
+}
+
+.answer-page ul li {
+  margin-top: 10px;
+  font-size: 18px;
+  padding: 5px 20px;
+  
+}
+
+.count-page{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  
+}
+
+.false-count-page{
+  margin-top: 10px;
+}
+.true-count-page{
+  margin-top: 10px;
+}
+
+}
+
+/* media */
+
+/* content-end  */
+
+.algiria {
+  display: none;
+}
+
+.angola {
+  display: none;
+}
+
+.rsa {
+  display: none;
+}
+
+.mozambique {
+  display: none;
+}
+
+.ghana {
+  display: none;
+}
+
+.mali {
+  display: none;
+}
+
+.cameroon {
+  display: none;
+}
+
+.egipet {
+  display: none;
+}
+
+.gabon {
+  display: none;
+}
+
+.niger {
+  display: none;
+}
+
+.gambia {
+  display: none;
+}
+
+.somalia {
+  display: none;
+}
+
+.madagascar {
+  display: none;
+}
+
+.zimbabwe {
+  display: none;
+}
+
+.morocco {
+  display: none;
+}
+
+.kenya {
+  display: none;
+}
+
+.libya {
+  display: none;
+}
+
+.benin {
+  display: none;
+}
+
+.sudan {
+  display: none;
+}
+
+.congo {
+  display: none;
+}
+
+.cd {
+  display: none;
+}
+
+.nig {
+  display: none;
+}
+
+.lib {
+  display: none;
+}
+
+.bf {
+  display: none;
+}
+
+.guinea {
+  display: none;
+}
